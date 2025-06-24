@@ -1,4 +1,4 @@
-const jwt=require("jsonwebtoken")
+// const jwt=require("jsonwebtoken")
 require("dotenv").config();
 function verifyToken(req,res,next){
 // get bearer toke from headers of request
